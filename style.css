@@ -1,41 +1,153 @@
-* {
-    margin: 50;
-    padding: 50;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* عام */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-p {
-    color: blue;
-    background-color: grey;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-div {
-    color: yellow;
-    background-color: grey;
+/* الرأس */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f4f4f4;
 }
 
-a:link {
-    color: blue;
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-a:visited {
-    color: purple;
+
+
+.logo:visited {
+    color: #6c757d; /* لون الرابط بعد زيارته */
 }
 
-a:hover {
-    color: rgb(15, 17, 15);
+.header .search-bar input {
+    padding: 5px;
+    width: 200px;
 }
 
-a:active {
-    color: red;
+.header .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
 }
 
-.bigRed {
-    font-size: x-large;
-    color: red;
+.header .cart {
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
 }
 
-li {
-    color: goldenrod;
-    background-color: black;
+/* القسم الرئيسي */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e4e4e4;
+}
+
+.hero h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* المنتجات المميزة */
+.featured-products {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-slider .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+}
+
+/* النشرة البريدية */
+.newsletter {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.newsletter-form {
+    margin-top: 10px;
+}
+
+.newsletter-form input {
+    padding: 5px;
+    width: 200px;
+}
+
+.newsletter-form button {
+    padding: 5px 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* شبكة المنتجات */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-grid .product {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+}
+
+/* حول المتجر */
+.about {
+    text-align: center;
+    padding: 20px;
+    background: #e4e4e4;
+}
+
+/* الفوتر */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+.main {
+    color :white;
 }
