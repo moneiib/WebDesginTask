@@ -1,4 +1,3 @@
-/* عام */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -11,7 +10,6 @@ body {
     padding: 0 20px;
 }
 
-/* الرأس */
 .header {
     display: flex;
     justify-content: space-between;
@@ -28,7 +26,7 @@ body {
 
 
 .logo:visited {
-    color: #6c757d; /* لون الرابط بعد زيارته */
+    color: #6c757d;
 }
 
 .header .search-bar input {
@@ -48,7 +46,6 @@ body {
     padding: 5px 10px;
 }
 
-/* القسم الرئيسي */
 .hero {
     text-align: center;
     padding: 50px 20px;
@@ -68,7 +65,6 @@ body {
     cursor: pointer;
 }
 
-/* المنتجات المميزة */
 .featured-products {
     padding: 20px;
     background: #f9f9f9;
@@ -92,7 +88,6 @@ body {
     background: #fff;
 }
 
-/* النشرة البريدية */
 .newsletter {
     padding: 20px;
     background: #f4f4f4;
@@ -116,7 +111,6 @@ body {
     cursor: pointer;
 }
 
-/* شبكة المنتجات */
 .product-grid {
     display: flex;
     flex-wrap: wrap;
@@ -132,14 +126,12 @@ body {
     background: #fff;
 }
 
-/* حول المتجر */
 .about {
     text-align: center;
     padding: 20px;
     background: #e4e4e4;
 }
 
-/* الفوتر */
 .footer {
     display: flex;
     justify-content: space-around;
